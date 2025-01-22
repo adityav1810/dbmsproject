@@ -1,5 +1,5 @@
 CREATE DATABASE  IF NOT EXISTS `bloodbank` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `bloodbankvarshneyabindrap`;
+USE `bloodbank`;
 -- MySQL dump 10.13  Distrib 8.0.31, for macos12 (x86_64)
 --
 -- Host: localhost    Database: bloodbank
@@ -456,11 +456,11 @@ DELIMITER ;
 /*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
--- Dumping events for database 'bloodbankvarshneyabindrap'
+-- Dumping events for database 'bloodbank'
 --
 
 --
--- Dumping routines for database 'bloodbankvarshneyabindrap'
+-- Dumping routines for database 'bloodbank'
 --
 /*!50003 DROP PROCEDURE IF EXISTS `add_additional_blood_bag` */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
